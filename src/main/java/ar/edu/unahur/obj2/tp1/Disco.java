@@ -15,4 +15,8 @@ public class Disco {
         this.genero = genero;
         this.canciones = new ArrayList<>();
     }
+
+    public void agregarCancion(Cancion cancion) {
+        this.canciones.add(cancion);
+    }
 }
